@@ -63,6 +63,51 @@ justify-content: space-around;
 
 }
 
+#escalacao{
+background: #6d8fc4;
+padding: 40px;
+border-radius: 20px;
+margin: 40px;
+text-align: center;
+}
+
+#escalacao h2{
+margin-bottom: 30px;
+}
+
+.time{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.jogador{
+text-align: center;
+width: 120px;
+}
+
+.jogador img{
+width: 60px;
+margin-bottom: 10px;
+}
+
+#mascote{
+position: fixed;
+bottom: 10px;
+right: 10px;
+width: 120px;
+z-index: 1000;
+}
+
+@media (max-width: 600px){
+
+#mascote{
+width: 80px;
+bottom: 5px;
+right: 5px;
+}
+
+}
 
 
 
